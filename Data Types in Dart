@@ -1,1 +1,39 @@
-
+/*Dart has specil support for these data types 
+  - numbers
+     - int
+     - double
+  -String
+  -Booleans
+  -Lists (Arrays)
+  -Maps 
+  -Runes     
+  -Symbols 
+  */
+​
+// Note taht all data type in Dart are Objects
+// Therefore values are by default null
+​
+void main() {
+ 
+  // Declare integer variable and we can also use var keyword to refer to int
+int age = 21 ;   
+var stage = 21 ;  
+double count = 22.5 ;  
+print (age);  
+​
+  
+// Declare String variable and we can also use var keyword to refer to  String 
+String name = "basant" ; 
+var fname = "adel" ; 
+print (name);   
+  
+  
+// Declare boolean variable and wwe can also use var keyword to refer to boolean  
+bool isAlive = true ;  
+var isDead = false ;
+print (isAlive);   
+  
+  
+   
+  
+}
